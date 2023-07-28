@@ -1,22 +1,13 @@
-# s = 'dias'
-# s1 = list(s)
-# a = ''
-# print(s1)
-# for i in range(len(s1)):
-#     a += s1[i].pop()
-#     print(a)
-#     print('a-', a)
-#
-# print(a)
-#
-
 s = 'dias'
+s1 = list(s)
 a = ''
-for i in s:
-    a = i + a
-    print(a)
-    print('a-', a)
+while s1:
+    a += s1.pop()
 
-print(a)
+print('The original string-', s)
+print('The reversed string-', a)
+
+
+
 
 
